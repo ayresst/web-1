@@ -1,0 +1,49 @@
+body{
+  font-family: Arial, sans-serif;/*define a familia da fonte*/
+  margin:0; /*remove margens externas do corpo do documento*/
+  padding:0;/*remove prenchimentos internos do corpo do*/
+  
+}
+  
+  header{
+  background-color:#00008B;
+   color:white;
+    padding:10px;/*adiciona preenchimento interno de 10px*/
+    text-align:center;
+}
+
+nav ul{
+  list-style-type:none;/*remove marcadores de lista*/
+  padding:0;/*remove o preenchimento interno da lista*/
+  margin:0;/*remove a margem externa da lista não ordenada*/
+  text-align:center;/*centraliza o texto da lista*/
+  margin-top:10px;/* adiciona uma margem superior de 10px*/
+}
+
+nav li{
+  display:inline;/*exibe os itens da lista na mesma linha*/
+  margin-right:80px;/*Define a margem direita dos itens*/
+}
+
+nav a {
+  text-decoration:none;/*Remove a decoração de textos dos links*/
+  color:black;/*define a cor dos textos dos links como pretos*/
+  font-weight:bold;/*define  o peso da fonte como negrito*/
+  transition:color 0.3;/*adiciona uma transição suave*/
+}
+
+nav a:hover{
+  color:red;/*define a cor dos links ao passar o mouse*/
+}
+
+@keyframes fadeIn{
+  from{
+    opacity:0;/*define a opacidade inical da animação*/
+  }
+  to{
+    opacity:1;/*define a opacidade final da animação*/
+  }
+}
+header{
+  animation: fadeIn 5s ease-in-out; /*aplica a animação de fade*/
+}
