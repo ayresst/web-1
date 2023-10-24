@@ -6,8 +6,8 @@ body{
 }
   
   header{
-  background-color:#00008B;
-   color:white;
+    background-color:#00008B;
+    color:white;
     padding:10px;/*adiciona preenchimento interno de 10px*/
     text-align:center;
 }
@@ -44,6 +44,6 @@ nav a:hover{
     opacity:1;/*define a opacidade final da animação*/
   }
 }
-header{
-  animation: fadeIn 5s ease-in-out; /*aplica a animação de fade*/
+  header{
+  animation:fadeIn 5s ease-in-out; /*aplica a animação de fade*/
 }
