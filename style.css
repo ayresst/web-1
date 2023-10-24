@@ -25,7 +25,7 @@ nav li{
   margin-right:80px;/*Define a margem direita dos itens*/
 }
 
-nav a {
+nav a{
   text-decoration:none;/*Remove a decoração de textos dos links*/
   color:black;/*define a cor dos textos dos links como pretos*/
   font-weight:bold;/*define  o peso da fonte como negrito*/
