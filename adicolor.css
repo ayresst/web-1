@@ -1,0 +1,40 @@
+          margin:0 auto;/*centraliza o container na pagina*/
+      }
+.siz{
+ width:150px;/*largura da primeira caixa*/
+        text-align:center;
+        line-height:25px;
+        border:1px solid #000000;
+  margin-top:0px;
+        heig}
+.container{
+ display: flex;/*Define o container como um flex*/
+        justify-content:space-between; /*espaço entre os elementos flex*/
+  margin-top:0px;
+        position:relative;/*posição do container como relativo*/
+        width:600px;/*largura do container*/
+          margin:0 auto;/*centraliza o container na pagina*/
+      }
+.siz{
+ width:150px;/*largura da primeira caixa*/
+        text-align:center;
+        line-height:25px;
+        border:1px solid #000000;
+  margin-top:0px;
+        height:30px;/*altura da primeira caixa*/
+        background-color:white;/*cor do fundo da primeira caixa*/
+        float:left;/*faz com que a primeria caixa flutue a esquerda*/
+        z-index:2;/*define a ordem de empilhamento da primeira caixa*/
+}
+
+prices{
+  font-size:100px;
+}ht:30px;/*altura da primeira caixa*/
+        background-color:white;/*cor do fundo da primeira caixa*/
+        float:left;/*faz com que a primeria caixa flutue a esquerda*/
+        z-index:2;/*define a ordem de empilhamento da primeira caixa*/
+}
+
+prices{
+  font-size:100px;
+}
