@@ -1,12 +1,78 @@
-          margin:0 auto;/*centraliza o container na pagina*/
-      }
-.siz{
- width:150px;/*largura da primeira caixa*/
+header{
+  background-color:#000000;
+   color:white;
+    padding:10px;/*adiciona preenchimento interno de 10px*/
+    text-align:center;
+}
+
+nav ul{
+  list-style-type:none;/*remove marcadores de lista*/
+  padding:4;/*remove o preenchimento interno da lista*/
+  margin:0;/*remove a margem externa da lista não ordenada*/
+  text-align:center;/*centraliza o texto da lista*/
+  margin-top:5px;/* adiciona uma margem superior de 10px*/
+}
+
+nav li{
+  display:inline;/*exibe os itens da lista na mesma linha*/
+  margin-right:80px;/*Define a margem direita dos itens*/
+}
+
+nav a {
+  text-decoration:none;/*Remove a decoração de textos dos links*/
+  color:black;/*define a cor dos textos dos links como pretos*/
+  font-weight:bold;/*define  o peso da fonte como negrito*/
+  transition:color 0.3;/*adiciona uma transição suave*/
+}
+
+nav a:hover{
+  color:#005edf;/*define a cor dos links ao passar o mouse*/
+} 
+
+@keyframes fadeIn{
+  from{
+    opacity:0;/*define a opacidade inical da animação*/
+  }
+  to{
+    opacity:1;/*define a opacidade final da animação*/
+  }
+}
+header{
+  animation: fadeIn 5s ease-in-out; /*aplica a animação de fade*/
+}
+
+
+.box{
+         width:290px;/*largura da primeira caixa*/
         text-align:center;
-        line-height:25px;
-        border:1px solid #000000;
-  margin-top:0px;
-        heig}
+        line-height:290px;
+        padding-top:25px;
+        height:200px;/*altura da primeira caixa*/
+        float:left;/*faz com que a primeria caixa flutue a esquerda*/
+       @keyframes fadeIn{
+  from{
+    opacity:0;/*define a opacidade inical da animação*/
+  }
+  to{
+    opacity:1;/*define a opacidade final da animação*/
+  }
+}
+header{
+  animation: fadeIn 5s ease-in-out; /*aplica a animação de fade*/
+} 
+
+.box{
+         width:290px;/*largura da primeira caixa*/
+        text-align:center;
+        line-height:290px;
+        padding-top:25px;
+        height:200px;/*altura da primeira caixa*/
+        float:left;/*faz com que a primeria caixa flutue a esquerda*/
+        z-index:2;/*define a ordem de empilhamento da primeira caixa*/
+        
+      }
+      
+}
 .container{
  display: flex;/*Define o container como um flex*/
         justify-content:space-between; /*espaço entre os elementos flex*/
@@ -14,7 +80,19 @@
         position:relative;/*posição do container como relativo*/
         width:600px;/*largura do container*/
           margin:0 auto;/*centraliza o container na pagina*/
+      } z-index:2;/*define a ordem de empilhamento da primeira caixa*/
+        
       }
+      
+}
+.container{
+ display: flex;/*Define o container como um flex*/
+        justify-content:space-between; /*espaço entre os elementos flex*/
+  margin-top:0px;
+        position:relative;/*posição do container como relativo*/
+        width:600px;/*largura do container*/
+          margin:0 auto;/*centraliza o container na pagina*/
+}
 .siz{
  width:150px;/*largura da primeira caixa*/
         text-align:center;
@@ -29,12 +107,5 @@
 
 prices{
   font-size:100px;
-}ht:30px;/*altura da primeira caixa*/
-        background-color:white;/*cor do fundo da primeira caixa*/
-        float:left;/*faz com que a primeria caixa flutue a esquerda*/
-        z-index:2;/*define a ordem de empilhamento da primeira caixa*/
 }
 
-prices{
-  font-size:100px;
-}
